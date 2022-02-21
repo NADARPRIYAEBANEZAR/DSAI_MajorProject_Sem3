@@ -232,8 +232,7 @@ def app():
                             st.error("Error occurred... Please try again!!")
                             #st.error(e)
         
-                        except :
-                            st.error("Error occurred... Please try again!!")
+                        
                     st.button("Reset")
     main()
             
