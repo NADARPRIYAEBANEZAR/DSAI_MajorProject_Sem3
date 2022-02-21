@@ -1,0 +1,9 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,target
+1,Male,TA,94,126,0,Normal,126,Yes,2.0,1,0,3,0
+1,Male,TA,94,126,0,Normal,126,Yes,2.0,1,0,3,0
+1,Male,TA,94,133,0,Normal,126,Yes,2.0,1,3,7,1
+1,Male,TA,94,133,0,LVH,126,Yes,2.0,1,3,7,1
+1,Male,TA,94,126,0,Normal,126,Yes,2.0,1,0,3,0
+1,Male,TA,94,126,0,Normal,126,Yes,2.0,1,0,3,0
+1,Female,TA,94,126,0,Normal,126,Yes,2.0,1,0,3,0
+1,Female,TA,94,126,0,Normal,126,Yes,2.0,1,0,3,0
