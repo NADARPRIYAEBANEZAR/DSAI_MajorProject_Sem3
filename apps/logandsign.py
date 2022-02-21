@@ -17,6 +17,8 @@ from multiapp import MultiApp
 import sqlite3 as my
 
 def app():
+    st.markdown("<marquee style='width:100%; direction:left;height:100%;color: black; font-weight: bold;behavior:scroll;'>WELCOME TO THE USER PANEL!!!</marquee>",unsafe_allow_html=True)
+    
     col1, col2,col3= st.sidebar.columns(3)
 
     with col2:
@@ -231,6 +233,8 @@ def app():
                         except my.ProgrammingError as er:
                             st.error("Error occurred... Please try again!!")
                             #st.error(e)
+                        except :
+                            st.error("Error occurred... Please try again!!")
         
                         
                     st.button("Reset")
