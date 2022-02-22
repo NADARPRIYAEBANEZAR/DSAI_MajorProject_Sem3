@@ -41,7 +41,7 @@ st.markdown("""
         <a class="nav-link" href="https://drive.google.com/file/d/13FzdqVKU3Ol6SaGkbRM154RrxytyHJ3r/view?usp=sharing" target="_blank">SYNOPSIS</a>
       </li>
  <li class="nav-item">
-        <a class="nav-link" href="/data.app" target="_blank">DOCUMENTATION</a>
+        <a class="nav-link" href="https://drive.google.com/file/d/1rxx63btpp6xVTrX75T7qJd9znWstjpD2/view?usp=sharing" target="_blank">DOCUMENTATION</a>
       </li>
         </ul>
   </div>
