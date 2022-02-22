@@ -134,12 +134,12 @@ def app():
             st.subheader('Result')
                 #st.write('Target \n1-Yes 0-No : ', dfp['Predict'][0])
             if(dfp[0]==0):
-                    img = Image.open("./apps/data/noheart.png")
+                    img = Image.open("./apps/data/noheart.jpg")
                     # display image using streamlit
                     # width is used to set the width of an image
                     st.image(img, width=500)
             else:
-                    img = Image.open("./apps/data/heartdis.png")
+                    img = Image.open("./apps/data/heartdis.jpg")
                     # display image using streamlit
                     # width is used to set the width of an image
                     st.image(img, width=500)
