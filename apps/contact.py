@@ -37,7 +37,7 @@ def app():
         
         with col2:
             
-            img = Image.open("./apps/data/Contact.jpg") 
+            img = Image.open("./apps/data/Contact.png") 
             q=st.image(img,caption='We would love to respond to your queries...')
         with col3:
             pass
