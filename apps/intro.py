@@ -130,7 +130,7 @@ def app():
 	          <h5 class="white-text">Connect With Me</h5>
 	          <ul>
 	           
-	           <a href="https://github.com/Jcharis/" target="_blank" class="white-text">
+	           <a href="https://github.com/NADARPRIYAEBANEZAR" target="_blank" class="white-text">
 	            <i class="fab fa-github-square fa-4x"></i>
 	          </a>
 	          </ul>
