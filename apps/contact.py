@@ -29,7 +29,7 @@ def app():
     # title
     st.markdown("<h2 style='text-align: center; color: purple;'>Have Some Questions??</h2>", unsafe_allow_html=True)    
     
-    with st.form('Form1'):
+    with st.form('Form1',clear_on_submit=True):
         #f=st.success('We value your feedback. Please complete the following form and help to improve the WebApplication')
         col1, col2, col3 = st.columns(3)
         with col1:
