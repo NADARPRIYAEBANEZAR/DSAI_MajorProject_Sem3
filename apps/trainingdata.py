@@ -74,7 +74,7 @@ def app():
                     st.dataframe(df,width=1000,height=1000)
                     @st.cache
                     def convert_df(df):
-                       return df.to_csv().encode('utf-8')
+                       return df.to_csv(index=False).encode('utf-8')
                     
                     
                     csv = convert_df(df)
