@@ -56,6 +56,7 @@ def app():
                     new_data={"age":age,"sex":sex,"cp":chest,"trestbps":restbp,"chol":chol,"fbs":f,"restecg":g,"thalach":h,"exang":i,"oldpeak":j,"slope":k,"ca":l,"thal":m,"target":n}
                     df=df.append(new_data,ignore_index=True)
                     df.to_csv("./data/trainingdata.csv",index=False)
+                    st.button("Reset")
         elif choice == "View TrainingData":
             st.markdown("<h2 style='text-align: center; color: purple;'>View Training Data</h2>", unsafe_allow_html=True)    
             
